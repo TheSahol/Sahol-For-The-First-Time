@@ -1482,7 +1482,7 @@ For devices with smaller width like mobile phone
     .about-img img{
         width: 317px;
         height:220px;
-        margin-left: -8px;
+        margin-left: -7.5px;
         padding: 5px;
         border-radius: 10%;
     }
