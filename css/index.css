@@ -50,10 +50,10 @@ input[type=number] {
       height:100vh;
       position: fixed;
       z-index:100;
-      font-family: poppins;
+      font-family: monoton;
       background-color: #202020;
       color: whitesmoke;
-      font-size: 70px;
+      font-size: 50px;
       width: 100%;
   }
 body{
@@ -257,6 +257,7 @@ body{
     height: auto;
     padding-right: 60px;
     width: auto;
+    margin-bottom: -270px;
 
 }
 .header-content .firstline{
@@ -265,6 +266,14 @@ body{
     font-family: poppins;
     font-size: 65px;
 }
+.header-content .firstlinew{
+    z-index: 2;
+    font-weight:700;
+    font-family: poppins;
+    font-size: 65px;
+    margin-top: -30px;
+}
+
 .header-content .secondline{
     z-index: 2;
     font-size: 30px;
@@ -339,7 +348,7 @@ body{
 .navigation-links a:hover{
     opacity: 1;
 }
-.navigation-links a::before{
+.    a::before{
     content: "";
     position: absolute;
     top:50%;
@@ -575,11 +584,10 @@ body{
     padding:2.5%;
 }
 .service{
-    height:380px;
+    height:320px;
     width:28%;
     margin: 1.5%;
     background-color: #191919;
-    ;
     display: inline-block;
     box-shadow:0px 0px 25px rgb(0,0,0,.05);
     position: relative;
@@ -617,8 +625,8 @@ body{
     z-index:2;
 }
 .service-description h2{
+    margin-top: -20px;
     padding: 10px;
-    margin: 5px;
     font-weight: 200;
     font-size: 25px;
 }
@@ -628,7 +636,7 @@ body{
     font-size: 15px;
 }
 .service-description p{
-    padding: 15px;
+    padding: 10px;
     font-weight: 200;
     font-size: 16px;
     opacity: .8;
@@ -710,7 +718,7 @@ body{
     font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:70%;
+    width:80%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -1031,6 +1039,7 @@ padding-bottom: 40px;
     height: 80%;
     padding: 30px;
     letter-spacing: 1px;
+    margin-top: -20px;
   }
 .blogs:hover .img{
       transform: translateY(-70%);
@@ -1403,7 +1412,7 @@ For devices with smaller width like mobile phone
     #contact{
         display: none;
     }
-    #breaker{
+    #   {
         height: 50vh;
         width: 200%;
         background-color: #c70039;
@@ -1484,8 +1493,9 @@ For devices with smaller width like mobile phone
         flex-direction: column-reverse;
     }
     .about-img img{
-        width: 280px;
+        width: 317px;
         height:220px;
+        margin-left: -8px;
         padding: 5px;
         border-radius: 10%;
     }
@@ -1497,7 +1507,7 @@ For devices with smaller width like mobile phone
         border-radius: 10%;
     }
     .service{
-        height:320px;
+        height:auto;
         width:90%;
         margin: 1.5%;
         background-color: #191919;
@@ -1859,7 +1869,7 @@ for tabs and large phones
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100vh;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
@@ -1979,6 +1989,7 @@ for tabs and large phones
         overflow: hidden;
     }
     .service-description h2{
+
         padding: 10px;
         margin: 5px;
         font-weight: 200;
@@ -2335,7 +2346,7 @@ for tabs and large phones
     
     }
     .service{
-        height:400px;
+        height:320px;
         width:28%;
         margin: 1.5%;
         padding: 10px;
