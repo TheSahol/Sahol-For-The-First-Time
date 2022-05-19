@@ -122,7 +122,6 @@ body{
     width: 100%;;
     overflow: hidden;
     animation: scale 3.5s ease;
-    animation-delay: 4.5s;
     position:relative;
     display: block;
 }
